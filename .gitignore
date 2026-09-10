@@ -1,0 +1,24 @@
+# Local Spring Boot configuration
+BlogApplication/src/main/resources/application-local.properties
+
+# Environment/secrets
+.env
+*.env
+blog.env
+
+# Private SSH keys
+*.pem
+
+# Java/Maven
+BlogApplication/target/
+
+# Node
+app/node_modules/
+app/dist/
+
+# IDE
+.classpath
+.project
+.settings/
+.vscode/
+.idea/
